@@ -33,7 +33,7 @@ title: Magnet App
         <li><strong>Aide à l’écriture :</strong>
             <ul>
                 <li><b>Éviter les erreurs : </b>Cohérence des scènes entre les back des différents personnages impliqués</li>
-                <li><b>Squelettes de personnages : </b>bFourniture en phase de pré-écriture des fiches d’un canevas – le squelette – regroupant toutes les informations essentielles</li>
+                <li><b>Squelettes de personnages : </b>Fourniture en phase de pré-écriture des fiches d’un canevas – le squelette – regroupant toutes les informations essentielles</li>
                 <li><b>Cohérence de la chronologie : </b>Cohérence de la chronologie par intrigue, personnage ou jeu</li>
                 <li><b>Rassemblement des informations disséminées</b> pour nourrir les aides de jeu</li>
                 <li><b>Visualisation des évènements</b> pour coordination en amont et durant le jeu</li>
