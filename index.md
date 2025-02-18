@@ -32,22 +32,22 @@ title: Magnet App
     <ul>
         <li><strong>Aide à l’écriture :</strong>
             <ul>
-                <li>Cohérence des scènes entre les back des différents personnages impliqués</li>
-                <li>Fourniture en phase de pré-écriture des fiches d’un canevas – le squelette – regroupant toutes les informations essentielles</li>
-                <li>Cohérence de la chronologie par intrigue, personnage ou jeu</li>
-                <li>Rassemblement des informations disséminées pour nourrir les aides de jeu</li>
-                <li>Visualisation des évènements pour coordination en amont et durant le jeu</li>
-                <li>Facilitation des briefs PNJs et de l’organisation logistique le jour J</li>
-                <li>Tracking des objets de jeu pour, suivi de ceux à fabriquer si nécessaire et effets spéciaux associés</li>
-				<li>Insertion automatique des photos des personnages connus par un PJ dans sa fiche, ou création de tombinoscopes dédiés par personnage</li>
-				<li>Calcul du nombre de personnages nécessaires pour dispoer de tous les PNJs et jeu, et de la réapartition des rôles entre ceux qui les joueront</li> 
+                <li><b>Éviter les erreurs : </b>Cohérence des scènes entre les back des différents personnages impliqués</li>
+                <li><b>Squelettes de personnages : </b>bFourniture en phase de pré-écriture des fiches d’un canevas – le squelette – regroupant toutes les informations essentielles</li>
+                <li><b>Cohérence de la chronologie : </b>Cohérence de la chronologie par intrigue, personnage ou jeu</li>
+                <li><b>Rassemblement des informations disséminées</b> pour nourrir les aides de jeu</li>
+                <li><b>Visualisation des évènements</b> pour coordination en amont et durant le jeu</li>
+                <li><b>Facilitation des briefs PNJs</b> et de l’organisation logistique le jour J</li>
+                <li><b>Tracking des objets de jeu</b> pour, suivi de ceux à fabriquer si nécessaire et effets spéciaux associés</li>
+		<li><b>Insertion automatique des photos</b> des personnages connus par un PJ dans sa fiche, ou création de tombinoscopes dédiés par personnage</li>
+		<li><b>Optimisation des PNJs </b>Calcul du nombre de personnages nécessaires pour disposer de tous les PNJs et jeu, et de la répartition des rôles entre ceux qui les joueront</li> 
             </ul>
         </li>
         <li><strong>Aide à la coordination :</strong>
             <ul>
-                <li>Suivi des tâches (todo) sur chaque intrigue/personnage</li>
-                <li>Suivi des commentaires ouverts et discussions entre organisateurs</li>
-                <li>Visualisation des dernières modifications sur le jeu (scènes, personnages affectés, organisateurs responsables)</li>
+                <li><b>Suivi des tâches</b> (todo) sur chaque intrigue/personnage</li>
+                <li><b>Suivi des commentaires</b> ouverts et discussions entre organisateurs</li>
+                <li><b>Visualisation des dernières modifications</b> sur le jeu (scènes, personnages affectés, organisateurs responsables)</li>
             </ul>
         </li>
     </ul>
