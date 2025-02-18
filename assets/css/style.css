@@ -1,0 +1,57 @@
+/*body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+header nav a {
+    margin-right: 10px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}*/
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f2e4; /* Couleur de fond claire type "vieux papier" */
+    color: #333;              /* Texte en gris foncé pour un bon contraste */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* En-tête (header) sans dégradé */
+header {
+    background-color: #f0e8d8; /* Un ton légèrement plus foncé pour différencier */
+    padding: 20px;
+    border-radius: 8px;       /* Optionnel : arrondi pour adoucir */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optionnel : ombre discrète */
+}
+
+/* Navigation : liens simples */
+header nav a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    /* Pas de transition de couleur au survol si on ignore l'effet hover */
+}
+
+/* Image centrée et légèrement arrondie */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Pied de page discret */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0e8d8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
