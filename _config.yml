@@ -23,6 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Une application d'automatisation des des tâches répétitives lors de l'écriture de GN.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://magnetlamoulinetteagn.github.io"
+#url: "magnet.trocme.fr"
 url: "https://magnet.trocme.fr"
 
 #twitter_username: jekyllrb
