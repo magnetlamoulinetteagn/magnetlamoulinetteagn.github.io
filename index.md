@@ -8,7 +8,7 @@ title: Magnet App
 <!--    <img src="assets/images/image_pc.webp" alt="Illustration de MAGnet" style="max-width: 40%; flex-shrink: 0;">
 -->
     
-    <div style="flex: 1;">
+<!--     <div style="flex: 1;">
 		<p></p>
 		<h2>A quoi sert MAGnet ?</h2>
         <p>
@@ -25,7 +25,58 @@ title: Magnet App
 	
 	<img src="assets/images/image_pc.webp" alt="Illustration de MAGnet" style="max-width: 40%; flex-shrink: 0;">
 
+</div> -->
+
+<style>
+  /* Mode desktop : affichage en ligne */
+  .responsive-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* empêche le retour à la ligne */
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .responsive-container .text {
+    flex: 0 0 60%; /* occupe 60 % sur grand écran */
+  }
+  .responsive-container .image {
+    flex: 0 0 40%; /* occupe 40 % sur grand écran */
+    max-width: 40%;
+  }
+  
+  /* Mode mobile : affichage en colonne */
+  @media screen and (max-width: 1200px) {
+    .responsive-container {
+      flex-direction: column;
+    }
+    .responsive-container .text,
+    .responsive-container .image {
+      flex: none;
+      width: 80%; /* chaque bloc prend toute la largeur */
+    }
+    .responsive-container .image {
+      max-width: 80%;
+    }
+  }
+</style>
+
+<div class="responsive-container">
+  <div class="text">
+    <h2>A quoi sert MAGnet ?</h2>
+    <p>
+      MAGnet est un outil d’assistance à l’écriture de GNs. Il vise à automatiser et traquer des tâches répétitives et sources d’erreurs lors des phases d’écriture, ainsi qu’à donner une vue d’ensemble du jeu et de son état à tout moment.
+    </p>
+    <p>
+      MAGnet a deux objectifs :
+    </p>
+    <ul>
+      <li><strong>Faciliter l’écriture du jeu</strong></li>
+      <li><strong>Faciliter la coordination entre les auteurs dans le cas d’une équipe</strong></li>
+    </ul>
+  </div>
+  <img src="assets/images/image_pc.webp" alt="Illustration de MAGnet" class="image">
 </div>
+
 
 <div>
     <h2>Que permet MAGnet ?</h2>
@@ -38,9 +89,9 @@ title: Magnet App
                 <li><b>Rassemblement des informations disséminées</b> pour nourrir les aides de jeu</li>
                 <li><b>Visualisation des évènements</b> pour coordination en amont et durant le jeu</li>
                 <li><b>Facilitation des briefs PNJs</b> et de l’organisation logistique le jour J</li>
-                <li><b>Tracking des objets de jeu</b> pour, suivi de ceux à fabriquer si nécessaire et effets spéciaux associés</li>
+                <li><b>Tracking des objets de jeu</b> : suivi de ceux à fabriquer si nécessaire et effets spéciaux associés</li>
 		<li><b>Insertion automatique des photos</b> des personnages connus par un PJ dans sa fiche, ou création de tombinoscopes dédiés par personnage</li>
-		<li><b>Optimisation des PNJs </b>Calcul du nombre de personnages nécessaires pour disposer de tous les PNJs et jeu, et de la répartition des rôles entre ceux qui les joueront</li> 
+		<li><b>Optimisation des PNJs </b>Calcul du nombre de personnages nécessaires pour disposer de tous les PNJs en jeu et de la répartition des rôles entre ceux qui les joueront</li> 
             </ul>
         </li>
         <li><strong>Aide à la coordination :</strong>

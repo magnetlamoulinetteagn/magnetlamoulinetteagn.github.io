@@ -36,7 +36,7 @@ Les fichiers sont uniquement traités **localement** sur l’ordinateur de l’u
 ### Traitement des fichiers de l’utilisateur
 L’Application accède aux fichiers stockés sur le compte **Google Drive** de l’utilisateur et peut en créer de nouveaux. Ces fichiers peuvent contenir des données personnelles, mais **celles-ci ne sont jamais visibles ni stockées par l'Éditeur**.  
 
-L’utilisateur doit s’assurer de la légitimité des données personnelles qu’il traite et, si nécessaire, obtenir le consentement des personnes concernées.  
+<!-- L’utilisateur doit s’assurer de la légitimité des données personnelles qu’il traite et, si nécessaire, obtenir le consentement des personnes concernées.   -->
 
 ### Absence de collecte automatique de données
 L’Application **ne collecte pas automatiquement** d’informations telles que :  
@@ -45,9 +45,28 @@ L’Application **ne collecte pas automatiquement** d’informations telles que 
 - Logs d’utilisation  
 - Identifiants publicitaires  
 
-### Absence de données sensibles
-L’Application **ne traite pas de données sensibles** (ex : données de santé, biométriques, etc.).  
+### Protection des données sensibles
+L’Application **ne traite pas de données sensibles** (ex : données de santé, biométriques, etc.).
 
+MAGnet peut être amené à traiter certaines données personnelles qui, dans le cadre de son utilisation, peuvent présenter une sensibilité particulière. Il s’agit notamment :
+
+- Des noms et adresses électroniques des collaborateurs ayant rédigé des commentaires dans les documents analysés par MAGnet (fichiers d’intrigues, de personnages et d’objets) ;
+- Des noms des joueurs inscrits au jeu, lorsque l’utilisateur les saisit dans les fichiers traités par MAGnet (gestion des PJ/PNJ, fichiers de personnages ou saisie libre dans les documents).
+
+Dans ces cas, le traitement de ces données relève exclusivement de la responsabilité de l’utilisateur. Ce dernier doit s’assurer que :
+
+- La collecte et le traitement des données reposent sur une base légale appropriée ;
+- Les personnes concernées sont informées de la finalité du traitement ;
+- Le cas échéant, leur consentement a été préalablement recueilli, conformément aux dispositions légales en vigueur.
+
+Les données ainsi traitées étant stockées directement sur le compte Google Drive de l’utilisateur, l’application MAGnet ne dispose pas d’un contrôle direct sur la sécurisation physique de ces informations. Toutefois, afin de renforcer la protection de ces données, les mesures suivantes sont mises en œuvre :
+
+- Contrôle d’accès renforcé : L’accès aux fichiers est sécurisé via Google OAuth, assurant que seules les personnes autorisées peuvent y accéder.
+- Gestion stricte des droits d’accès : L’accès aux fichiers est possible uniquement sur invitation explicite de l’utilisateur, conformément aux paramètres de partage et de sécurité de Google Drive.
+
+Il est par ailleurs recommandé à l’utilisateur de vérifier régulièrement ses paramètres de sécurité sur Google Drive afin de s’assurer que les mesures de protection des données restent conformes aux exigences réglementaires.
+
+	
 ---
 
 ## Stockage et sécurité des données
