@@ -32,6 +32,7 @@ L'Éditeur n’est pas en mesure d’accéder au contenu des fichiers de l’uti
 ### Absence de collecte centralisée de données personnelles
 L’Application ne s’appuie sur **aucun serveur tiers** pour traiter ou transférer les données : elle n’effectue **aucune collecte ou stockage** de données personnelles sur des serveurs externes.  
 Les fichiers sont uniquement traités **localement** sur l’ordinateur de l’utilisateur et dans son compte **Google Drive**.  
+La confidentialité des données échangées par l’application est ganratie par l’usage de protocoles d’encryption. Toutes les communications entre l’utilisateur et les serveurs de Google s’effectuent via les API officielles de Google, en utilisant le protocole HTTPS. Cela **garantit un chiffrement de bout en bout des échanges**, assurant la confidentialité et l’intégrité des données transmises.
 
 ### Traitement des fichiers de l’utilisateur
 L’Application accède aux fichiers stockés sur le compte **Google Drive** de l’utilisateur et peut en créer de nouveaux. Ces fichiers peuvent contenir des données personnelles, mais **celles-ci ne sont jamais visibles ni stockées par l'Éditeur**.  
